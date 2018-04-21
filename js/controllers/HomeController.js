@@ -1,3 +1,5 @@
+
+
 app.controller('HomeController', ['$scope', function($scope) {
 	
 	
@@ -89,18 +91,8 @@ app.controller('HomeController', ['$scope', function($scope) {
       dislikes:	101,
       posterindex: 0
 	}
-	
-	
-  ];
-	
-	
-
-	
-	/* ADD VARIABLES FOR STEP 3 HERE */
-	
-	
-	
-	
+];
+	/* ADD VARIABLES FOR STEP 3 HERE */ 
 	
 	
 	
