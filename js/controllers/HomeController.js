@@ -94,7 +94,9 @@ app.controller('HomeController', ['$scope', function($scope) {
 ];
 	/* ADD VARIABLES FOR STEP 3 HERE */ 
 	
-	
+	$scope.title = "IMDB + Gunja’s Top 8 Movies";
+	$scope.owner = "Gunja";
+	$scope.github = "http://www.github.com/gunjads7245/is219soni-p3";
 	
 	
 	/* ADD FUNCTIONS FOR STEP 7 HERE */
