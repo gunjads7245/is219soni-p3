@@ -6,6 +6,7 @@ body {
     width: 100%;
     overflow: auto;
     background-image: url(../img/geometry.jpg);
+    
 }
 
 /* This stylizes the header area */
@@ -27,9 +28,12 @@ body {
 .thumbnail {
     border: 0px;
     position: relative;
-    padding: 50px;
+    padding-right: 50px;
     border-radius: 0;
     margin-bottom: 50px;
+
+   
+  
     
 }
 .thumbnail img {
@@ -77,6 +81,8 @@ body {
     position: absolute;
     top: 50px;
     right: 25px;
+
+    
 }
 
 /* This contains your like and dislike buttons */
@@ -115,8 +121,10 @@ body {
 
 /* This makes sure your Github Button text is small */
 #github{
-	font-size: small;
+   font-size: small;
 }
+
+
 
 /* ADD YOUR LIKE AND DISLIKE HOVER/MOUSEOVER CSS CODE HERE */
 
