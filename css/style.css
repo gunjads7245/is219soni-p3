@@ -116,12 +116,9 @@ body {
 
  background-color: #008700;
  color: #ffffff;
-}
-.likes:hover {
- background-color: #9edd87;
-    color: #008700;
-}
 
+
+}
 
 /* This makes sure your Github Button is centered */
 .footer {
