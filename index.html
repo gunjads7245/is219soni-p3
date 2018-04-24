@@ -20,16 +20,13 @@
 	
 </head>
 
-  <body>
+  <body  ng-app="IS219Gallery">
 
-   <div ng-app="IS219Gallery" ng-controller="HomeController">  
-    
-	  
-    <div class="header">
+   
+     <div class="header" ng-controller= "HomeController">
  
       <div class="container">
-	
-        <h1 id="app_title">{{title}}</h1>
+      <h1 id="app_title">{{title}}</h1>
       </div>
       
     </div>
@@ -41,18 +38,18 @@
       	<div ng-repeat="movie in movies" class="col-md-6"> 
 	  <div class="thumbnail">
 
-<img class="poster" ng-src="{{ movie.posters[movie.posterindex]}}"/>
-<div class="imageInfo">{{movie.posterindex}}</div>
-<p class="title">{{movie.title}}({{movie.country}})</p>
-<p class="score"><i class="fa fa-star" aria-hidden="true"></i>{{movie.iscore}} </p>
-<p class="runtime">Runtime: {{movie.runtime}}</p> 
-<p class="released">Released: {{movie.released}} | Rated:{{movie.rating}}</p>
-<p class="websites">Websites: <a>{{movie.imdb}}</a> | <a>{{movie.website}}</a></p>
- <div class="social">
-		              <p class="likes"><i class="fa fa-thumbs-up" aria-hidden="true"></i>{{movie.likes}}</p>
-		              <p class="dislikes"><i class="fa fa-thumbs-down" aria-hidden="true"></i>{{movie.dislikes}}</p>
-		            </div>
-</div>
+               <img class="poster" ng-src="{{ movie.posters[movie.posterindex]}}"/>
+	       <div class="imageInfo">{{movie.posterindex}}</div>
+		<p class="title">{{movie.title}}({{movie.country}})</p>
+		<p class="score"><i class="fa fa-star" aria-hidden="true"></i>{{movie.iscore}}</p>
+		<p class="runtime">Runtime: {{movie.runtime}}</p> 
+		<p class="released">Released: {{movie.released}} | Rated:{{movie.rating}}</p>
+		<p class="websites">Websites: <a>{{movie.imdb}}</a> | <a>{{movie.website}}</a></p>
+		 <div class="social">
+		 <p class="likes"><i class="fa fa-thumbs-up" aria-hidden="true"></i>{{movie.likes}}</p>
+	         <p class="dislikes"><i class="fa fa-thumbs-down" aria-hidden="true"></i>{{movie.dislikes}}</p>
+		          </div>
+               </div>
 
 
         </div>
