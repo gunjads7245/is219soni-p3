@@ -28,13 +28,9 @@ body {
 .thumbnail {
     border: 0px;
     position: relative;
-    padding-right: 50px;
+    padding: 50px;
     border-radius: 0;
-    margin-bottom: 50px;
-
-   
-  
-    
+    margin-bottom: 50px;  
 }
 .thumbnail img {
     margin-top: 10px;
@@ -134,20 +130,22 @@ transition: background 500ms;
 
 /* This makes sure your Github Button is centered */
 .footer {
-    text-align: center;
+   
     margin: 80px 0 110px;
+    text-align: center;
 }
 
 /* This makes sure your Github Button text is small */
 #github{
    font-size: small;
+   
 }
 
 
 
 /* ADD YOUR LIKE AND DISLIKE HOVER/MOUSEOVER CSS CODE HERE */
 
-
+/* finish 7,8,9 and 16 steps and some CSS properties to make look page right */
 
 
 

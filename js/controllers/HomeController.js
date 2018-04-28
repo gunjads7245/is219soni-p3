@@ -90,6 +90,56 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
+	},
+	{
+	 title:	'Veer-zara', 
+      iscore:	7.9,
+      rating:	'NR',
+      runtime:	192,
+      released:	new Date('2004'),
+      country:	'INDIA',
+      posters:	['img/vz.jpg','img/vz2.jpg'],
+      imdb:		'https://www.imdb.com/title/tt0420332/?ref_=nv_sr_1',
+      website:	'https://www.facebook.com/VeerZaara/',
+      likes:	828,
+      dislikes:	127,
+      posterindex: 0
+
+	},
+
+	{
+
+       title:	'Baahubali: The Beginning', 
+      iscore:	8.2,
+      rating:	'NR',
+      runtime:	159,
+      released:	new Date('2015'),
+      country:	'INDIA',
+      posters:	['img/Baahubali.jpg','img/baahubali2.jpg'],
+      imdb:		'https://www.imdb.com/title/tt2631186/?ref_=fn_al_tt_1',
+      website:	'https://www.facebook.com/BaahubaliMovie/',
+      likes:	900,
+      dislikes:	50,
+      posterindex: 0
+
+
+	},
+	{
+
+     title:'Sanam Teri Kasam', 
+      iscore: 7.3,
+      rating:	'NR',
+      runtime:	154,
+      released:	new Date('2016'),
+      country:	'INDIA',
+      posters:	['img/sanam.jpg','img/baahubali2.jpg'],
+      imdb:		'https://www.imdb.com/title/tt5255710/?ref_=fn_al_tt_1',
+      website:	'https://www.facebook.com/sanamterikaaam/',
+      likes:	800,
+      dislikes:	150,
+      posterindex: 0
+
+
 	}
 	
 	
