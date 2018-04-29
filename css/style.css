@@ -138,7 +138,7 @@ transition: background 500ms;
 /* This makes sure your Github Button text is small */
 #github{
    font-size: small;
-   
+   text-align: center;
 }
 
 
